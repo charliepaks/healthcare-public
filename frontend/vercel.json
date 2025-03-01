@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/speech/transcribe/:match*",
+        "destination": "http://healthcareappbackend.xyz/api/speech/transcribe/:match*"
+      },
+      {
+        "source": "/api/translate/:match*",
+        "destination": "http://healthcareappbackend.xyz/api/translate/:match*"
+      },
+      {
+        "source": "/api/tts/:match*",
+        "destination": "http://healthcareappbackend.xyz/api/tts/:match*"
+      }
+    ]
+  }
